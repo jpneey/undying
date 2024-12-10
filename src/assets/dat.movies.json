@@ -1,0 +1,162 @@
+[
+    {
+        "title" : "World War Z",
+        "poster"    : "world-war-z.webp",
+        "year"      : 2013
+    },
+    {
+        "title"     : "Dawn of the Dead",
+        "poster"    : "Dawn-of-the-Dead-Remake.png",
+        "year"      : 2004
+    },
+    {
+        "title"     : "Rec 2007",
+        "poster"    : "rec-2007.avif",
+        "year"      : 2007
+    },
+    {
+        "title"     : "The Girl With All The Gifts",
+        "poster"    : "the-girl-with-all-the-gifts.jpg",
+        "year"      : 2016
+    },
+    {
+        "title"     : "Train to Busan",
+        "poster"    : "busan.webp",
+        "year"      : 2016
+    },
+    {
+        "title"     : "28 Days Later",
+        "poster"    : "28-days.webp",
+        "year"      : 2002
+    },
+    {
+        "title"     : "Day of the dead",
+        "poster"    : "day-of-the-dead-1985.png",
+        "year"      : 1985
+    },
+    {
+        "title"     : "Zombieland",
+        "poster"    : "zombieland.jpg",
+        "year"      : 2009
+    },
+    {
+        "title"     : "Shaun of the Dead",
+        "poster"    : "shaun.webp",
+        "year"      : 2004
+    },
+    {
+        "title"     : "Alive",
+        "poster"    : "alive-2020.jpeg",
+        "year"      : 2020
+    },
+    {
+        "title"     : "Carriers",
+        "poster"    : "carriers.jpg",
+        "year"      : 2009
+    },
+    {
+        "title"     : "Dawn of the Dead 1978",
+        "poster"    : "dawn.webp",
+        "year"      : 1978
+    },
+    {
+        "title"     : "Apocalypse Z",
+        "poster"    : "apocalypse-z.jpg",
+        "year"      : 2024
+    },
+    {
+        "title"     : "28 Weeks later",
+        "poster"    : "28.jpg",
+        "year"      : 2007
+    },
+    {
+        "title"     : "Army of the Dead",
+        "poster"    : "army-of-the-dead.jpg",
+        "year"      : 2021
+    },
+    {
+        "title"     : "Cargo",
+        "poster"    : "cargo.jpg",
+        "year"      : 2017
+    },
+    {
+        "title"     : "Ravenous",
+        "poster"    : "ravenous.jpg",
+        "year"      : 2017
+    },
+    {
+        "title"     : "Cooties",
+        "poster"    : "cooties.jpg",
+        "year"      : 2014
+    },
+    {
+        "title"     : "Day of the dead 2008",
+        "poster"    : "day-of-the-dead-2008.jpg",
+        "year"      : 2008
+    },
+    {
+        "title"     : "I am Legend",
+        "poster"    : "i-am-legend-cover.jpeg",
+        "year"      : 2007
+    },
+    {
+        "title"     : "It Stains the Sands Red",
+        "poster"    : "red.jpg",
+        "year"      : 2016
+    },
+    {
+        "title"     : "Land of the Dead",
+        "poster"    : "land-of-the-dead-3.jpg",
+        "year"      : 2005
+    },
+    {
+        "title"     : "Resident Evil: Afterlife",
+        "poster"    : "resident-evil-afterlife.jpg",
+        "year"      : 2010
+    },
+    {
+        "title"     : "Resident Evil: Welcome to Raccoon City",
+        "poster"    : "residentevil-welcometoraccooncity.jpg",
+        "year"      : 2021
+    },
+    {
+        "title"     : "The Wailing",
+        "poster"    : "wailing.jpg",
+        "year"      : 2016
+    },
+    {
+        "title"     : "Little Monsters",
+        "poster"    : "little-monsters.jpg",
+        "year"      : 2019
+    },
+    {
+        "title"     : "Warm Bodies",
+        "poster"    : "warm.avif",
+        "year"      : 2010
+    },
+    {
+        "title"     : "Valley of the Dead",
+        "poster"    : "valley.webp",
+        "year"      : 2022
+    },
+    {
+        "title"     : "Zombieland Double Tap",
+        "poster"    : "zombieland-doubletap.jpg",
+        "year"      : 2019
+    },
+    {
+        "title"     : "Outside",
+        "poster"    : "outside.webp",
+        "year"      : 2024
+    },
+    {
+        "title"     : "Zom 100: Bucket List of the Dead",
+        "poster"    : "zom-100.jpg",
+        "year"      : 2024
+    },
+    {
+        "title"     : "Scouts Guide to the Zombie Apocalypse",
+        "poster"    : "scoutsguide.webp",
+        "year"      : 2015
+    }
+]
