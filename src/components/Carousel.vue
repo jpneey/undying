@@ -51,7 +51,8 @@
       </swiper-slide>
     </swiper>
 
-    <div :class=" { 'on' : previewing  } " @click="setupPreview( media, true )">
+    <div :class=" { 'on' : previewing  } ">
+      <div class="preview-overlay position-fixed w-100 h-100 top-0 start-0" @click="setupPreview( media, true )"></div>
       <Preview :dat="media"></Preview>
     </div>
   </section>

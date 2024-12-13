@@ -1,9 +1,5 @@
 <script setup>
-  
-  import { ref } from 'vue';
-  
   const props = defineProps(['dat']);
-
 </script>
 
 <template>
@@ -17,7 +13,7 @@
                     <div class="ps-md-4">
                         <h3>{{ props.dat.title }}</h3>
                         <p>{{ props.dat.year }}</p>
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit excepturi aliquid, quod corrupti harum vel. Dolore, natus necessitatibus quae quaerat facere esse alias voluptatibus. Exercitationem iste possimus recusandae a ducimus.</p>
+                        <p>{{ props.dat.content }}</p>
                     </div>
                 </div>
             </div>
