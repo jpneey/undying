@@ -9,8 +9,8 @@
     <div class="spacing container position-relative">
       <div class="row align-items-center">
         <div class="col col-12 col-md-5 my-4" :class="index % 2 != 0 ? 'order-md-2 offset-md-1 ' : ''">
-          <p class="subtitle mb-0">Spotlight &mdash; {{ item.year }}</p>
-          <h2>{{ item.title }}</h2>
+          <p class="subtitle mb-0">Spotlight</p>
+          <h2 class="mb-4">{{ item.title }}</h2>
           <p>{{ item.content }}</p>
         </div>
         <div class="col col-12 col-md-6" :class="index % 2 != 0 ? '' : 'offset-md-1'">
