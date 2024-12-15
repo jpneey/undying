@@ -46,7 +46,11 @@
           <div class="image position-absolute top-50 start-50 w-100 h-100" :style="{ backgroundImage: 'url(./poster/' + media.poster + ')' }"></div>
           <div class="content p-4 position-relative w-100 text-white">
             <h5 class="title pt-4">{{ media.title }}</h5>
-            <small>{{ media.year }}</small>
+            <div class="d-flex">
+              <small>{{ media.year }}</small>
+              <span class="ms-2"></span>
+              <small>{{ media.meta.type }}</small>
+            </div>
           </div>
       </swiper-slide>
     </swiper>
