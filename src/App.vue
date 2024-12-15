@@ -14,7 +14,7 @@ const menu_active = ref( false );
       <i class="position-absolute w-100 top-50 start-0 translate-middle-y two"></i>
       <i class="position-absolute w-100 bottom-0 start-0 three"></i>
     </span>
-    <nav class="position-fixed top-0 end-0 p-5 d-flex align-items-center flex-wrap">
+    <nav class="main-nav position-fixed top-0 end-0 p-5 d-flex align-items-center flex-wrap">
       <div class="d-block text-center w-100" @click="menu_active = !menu_active">
         <RouterLink to="/">Home</RouterLink>
         <RouterLink to="/directory">Directory</RouterLink>

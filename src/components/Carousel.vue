@@ -40,6 +40,14 @@
       :pagination="{
         clickable: true,
       }"
+      :effect="'coverflow'"
+      :coverflowEffect="{
+        rotate: 80,
+        depth: -100,
+        modifier: .2,
+        scale: 1.2,
+      }"
+
       class="w-100 position-relative pb-5 px-4 overflow-visible"
     >
       <swiper-slide v-for="media in data" class="position-relative overflow-hidden d-flex align-items-end flex-wrap" @mouseover="swapImage( media.poster )" @click="setupPreview( media, previewing )">
