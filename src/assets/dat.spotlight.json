@@ -1,0 +1,28 @@
+[
+    {
+        "title"     : "[REC]",
+        "posters"   : [
+            "rec-2007-1.jpg",
+            "rec-2007-2.jpg",
+            "rec-2007.avif"
+        ],
+        "content"   : "A television reporter and her cameraman are trapped inside an apartment building while covering a routine emergency response, only to find the residents have been infected by a deadly virus that turns them into violent, zombie-like creatures. As the situation spirals out of control, the survivors must fight to stay alive while the infection spreads rapidly within the building.",
+        "year"      : 2007,
+        "meta"      : {
+            "type"      : "Movie"
+        }
+    },
+    {
+        "title"     : "The Sadness",
+        "posters"   : [
+            "sadness-2.jpg",
+            "sadness-1.jpg",
+            "sadness-3.jpg"
+        ],
+        "content"   : "A brutal virus spreads across Taiwan, turning people into sadistic, violent monsters driven by unchecked rage and sexual depravity. As the outbreak worsens, a couple must fight to survive and navigate the chaos while struggling to avoid becoming victims of the infected.",
+        "year"      : 2021,
+        "meta"      : {
+            "type"      : "Movie"
+        }
+    }
+]

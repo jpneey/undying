@@ -64,7 +64,7 @@
     <div class="container position-relative">
       <div class="row">
         <div class="col col-12">
-          <div class="px-4 text-center text-md-start">
+          <div class="text-center text-md-start">
             <!-- <Crumbs :links="crumbs"></Crumbs> -->
             <h1>Almanac</h1>
           </div>

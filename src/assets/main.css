@@ -85,7 +85,6 @@ header {
 }
 
 main {
-  min-height: 100vh;
   background: #000;
 }
 
@@ -94,9 +93,17 @@ h1 {
   font-weight: bold;
 }
 
+h2 {
+  font-size: 60px;
+  font-weight: bold;
+}
+
 @media screen and ( max-width: 600px ) {
   h1 {
     font-size: 60px;
+  }
+  h2 {
+    font-size: 30px;
   }
 }
 
@@ -186,11 +193,16 @@ h1 {
 }
 
 
+
+.bg,
 .poster {
-  padding-top: 56%;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+}
+
+.poster {
+  padding-top: 56%;
 }
 
 .page {
@@ -226,4 +238,49 @@ ul {
 
 .directory-list li {
   cursor: pointer;
+}
+
+.bg-danger {
+  background: #cb0013 !important;
+}
+
+.spacing {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.poster-tall {
+  height: 600px;
+}
+
+.poster-small {
+  height: calc(300px - .8rem);
+}
+
+.subtitle {
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+@media screen and ( max-width: 769px ) {
+  .container {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  
+  .spacing {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
+  .page {
+    padding-top: 200px;
+  }
+
+  .poster-small,
+  .poster-tall {
+    height: 200px;
+    margin-bottom: 30px;
+  }
 }

@@ -10,15 +10,6 @@
         }
     },
     {
-        "title"     : "Rec 2007",
-        "poster"    : "rec-2007.avif",
-        "content"   : "A television reporter and her cameraman are trapped inside an apartment building while covering a routine emergency response, only to find the residents have been infected by a deadly virus that turns them into violent, zombie-like creatures. As the situation spirals out of control, the survivors must fight to stay alive while the infection spreads rapidly within the building.",
-        "year"      : 2007,
-        "meta"      : {
-            "type"      : "Movie"
-        }
-    },
-    {
         "title"     : "The Girl With All The Gifts",
         "poster"    : "the-girl-with-all-the-gifts.jpg",
         "content"   : "A young girl named Melanie, who is infected by a fungal disease that turns humans into \"Hungries,\" is part of a special group of children with retained intelligence. As society collapses due to the outbreak, Melanie and a small group of survivors must navigate a dangerous world while confronting the nature of her condition and the future of humanity",
@@ -68,6 +59,15 @@
         "poster"    : "day-of-the-dead-1985.png",
         "content"   : "A group of survivors, including soldiers and scientists, are holed up in an underground bunker as society collapses due to a zombie apocalypse. Tensions rise between the group as they struggle to find a solution to the outbreak while dealing with the growing threat of both the undead and their fellow humans.",
         "year"      : 1985,
+        "meta"      : {
+            "type"      : "Movie"
+        }
+    },
+    {
+        "title"     : "[REC]",
+        "poster"    : "rec-2007.avif",
+        "content"   : "A television reporter and her cameraman are trapped inside an apartment building while covering a routine emergency response, only to find the residents have been infected by a deadly virus that turns them into violent, zombie-like creatures. As the situation spirals out of control, the survivors must fight to stay alive while the infection spreads rapidly within the building.",
+        "year"      : 2007,
         "meta"      : {
             "type"      : "Movie"
         }
