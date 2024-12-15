@@ -314,5 +314,14 @@
         "meta"      : {
             "type"      : "Movie"
         }
+    },
+    {
+        "title"     : "Happiness",
+        "poster"    : "happiness.jpg",
+        "content"   : "Residents of a high-rise building fight for survival when a deadly disease breaks out and turns the infected into blood-lusting zombies.",
+        "year"      : 2021,
+        "meta"      : {
+            "type"      : "Series"
+        }
     }
 ]
