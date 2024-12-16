@@ -1,6 +1,7 @@
 [
     {
         "title"     : "[REC].",
+        "slug"      : "rec",
         "posters"   : [
             "rec-2007-1.jpg",
             "rec-2007-2.jpg",
@@ -14,6 +15,7 @@
     },
     {
         "title"     : "The Sadness",
+        "slug"      : "sadness",
         "posters"   : [
             "sadness-2.jpg",
             "sadness-1.jpg",

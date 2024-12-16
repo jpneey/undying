@@ -1,5 +1,5 @@
 <script setup>
-
+  import { RouterLink } from 'vue-router';
   import data from '@/assets/dat.spotlight.json';
 
 </script>
@@ -12,17 +12,19 @@
           <p class="subtitle mb-0">Spotlight</p>
           <h2 class="mb-4">{{ item.title }}</h2>
           <p>{{ item.content }}</p>
+          <RouterLink :to="'/z/' + item.slug" class="button d-none d-md-inline-block mt-3">Inspect</RouterLink>
         </div>
         <div class="col col-12 col-md-6" :class="index % 2 != 0 ? '' : 'offset-md-1'">
           <div class="row">
             <div class="col-12 col-md-6">
-              <div class="bg poster-tall bg-dark" :style="{ backgroundImage: 'url(./poster/' + item.posters[0] + ')' }"></div>
+              <div class="bg poster-tall bg-dark" :style="{ backgroundImage: 'url(/src/assets/poster/' + item.posters[0] + ')' }"></div>
             </div>
             <div class="col-12 col-md-6 d-flex flex-wrap">
-              <div class="bg poster-small bg-dark w-100" :style="{ backgroundImage: 'url(./poster/' + item.posters[1] + ')' }"></div>
-              <div class="bg poster-small bg-dark w-100 mt-auto" :style="{ backgroundImage: 'url(./poster/' + item.posters[2] + ')' }"></div>
+              <div class="bg poster-small bg-dark w-100" :style="{ backgroundImage: 'url(/src/assets/poster/' + item.posters[1] + ')' }"></div>
+              <div class="bg poster-small bg-dark w-100 mt-auto" :style="{ backgroundImage: 'url(/src/assets/poster/' + item.posters[2] + ')' }"></div>
             </div>
           </div>
+          <RouterLink :to="'/z/' + item.slug" class="button d-md-none">Inspect</RouterLink>
         </div>
       </div>
     </div>
