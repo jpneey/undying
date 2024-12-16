@@ -1,383 +1,459 @@
 [
     
     {
-        "title"     : "Dawn of the Dead - Remake",
-        "slug"      : "dawn-of-the-dead-remake",
-        "poster"    : "Dawn-of-the-Dead-Remake.png",
-        "content"   : "A group of survivors is trapped in a shopping mall during a zombie outbreak that has decimated the world outside. As they struggle to survive and avoid the growing hordes of zombies, they face internal conflicts, limited resources, and the harsh reality of their situation.",
-        "year"      : 2004,
-        "meta"      : {
-            "type"      : "Movie"
+        "title": "Dawn of the Dead - Remake",
+        "slug": "dawn-of-the-dead-remake",
+        "poster": "Dawn-of-the-Dead-Remake.png",
+        "content": "A group of survivors is trapped in a shopping mall during a zombie outbreak that has decimated the world outside. As they struggle to survive and avoid the growing hordes of zombies, they face internal conflicts, limited resources, and the harsh reality of their situation.",
+        "year": 2004,
+        "meta": {
+            "type": "Movie",
+            "director": "Zack Snyder",
+            "country": "USA"
         }
     },
     {
-        "title"     : "The Girl With All The Gifts",
-        "slug"      : "the-girl-with-all-the-gifts",
-        "poster"    : "the-girl-with-all-the-gifts.jpg",
-        "content"   : "A young girl named Melanie, who is infected by a fungal disease that turns humans into \"Hungries,\" is part of a special group of children with retained intelligence. As society collapses due to the outbreak, Melanie and a small group of survivors must navigate a dangerous world while confronting the nature of her condition and the future of humanity",
-        "year"      : 2016,
-        "meta"      : {
-            "type"      : "Movie"
+        "title": "The Girl With All The Gifts",
+        "slug": "the-girl-with-all-the-gifts",
+        "poster": "the-girl-with-all-the-gifts.jpg",
+        "content": "A young girl named Melanie, who is infected by a fungal disease that turns humans into \"Hungries,\" is part of a special group of children with retained intelligence. As society collapses due to the outbreak, Melanie and a small group of survivors must navigate a dangerous world while confronting the nature of her condition and the future of humanity.",
+        "year": 2016,
+        "meta": {
+            "type": "Movie",
+            "director": "Colm McCarthy",
+            "country": "UK"
         }
     },
     {
-        "title"     : "Train to Busan",
-        "slug"      : "busan",
-        "poster"    : "busan.webp",
-        "content"   : "A father and his young daughter find themselves trapped on a high-speed train as a zombie outbreak rapidly spreads across South Korea. As the train makes its way to Busan, the passengers must fight for survival while dealing with the terrifying chaos outside and the threat of the infected within.",
-        "year"      : 2016,
-        "meta"      : {
-            "type"      : "Movie"
+        "title": "Train to Busan",
+        "slug": "busan",
+        "poster": "busan.webp",
+        "content": "A father and his young daughter find themselves trapped on a high-speed train as a zombie outbreak rapidly spreads across South Korea. As the train makes its way to Busan, the passengers must fight for survival while dealing with the terrifying chaos outside and the threat of the infected within.",
+        "year": 2016,
+        "meta": {
+            "type": "Movie",
+            "director": "Yeon Sang-ho",
+            "country": "South Korea"
         }
     },
     {
-        "title"     : "28 Days Later",
-        "slug"      : "28-days",
-        "poster"    : "28-days.webp",
-        "content"   : "A man named Jim awakens from a coma to find London devastated by a viral outbreak that turns people into rage-fueled zombies. As he joins a group of survivors, they must navigate a desolate world and fight to stay alive against both the infected and other hostile humans.",
-        "year"      : 2002,
-        "meta"      : {
-            "type"      : "Movie"
+        "title": "28 Days Later",
+        "slug": "28-days",
+        "poster": "28-days.webp",
+        "content": "A man named Jim awakens from a coma to find London devastated by a viral outbreak that turns people into rage-fueled zombies. As he joins a group of survivors, they must navigate a desolate world and fight to stay alive against both the infected and other hostile humans.",
+        "year": 2002,
+        "meta": {
+            "type": "Movie",
+            "director": "Danny Boyle",
+            "country": "UK"
         }
     },
     {
-        "title"     : "The Sadness",
-        "slug"      : "sadness",
-        "poster"    : "sadness.jpg",
-        "content"   : "A brutal virus spreads across Taiwan, turning people into sadistic, violent monsters driven by unchecked rage and sexual depravity. As the outbreak worsens, a couple must fight to survive and navigate the chaos while struggling to avoid becoming victims of the infected.",
-        "year"      : 2021,
-        "meta"      : {
-            "type"      : "Movie"
+        "title": "The Sadness",
+        "slug": "sadness",
+        "poster": "sadness.jpg",
+        "content": "A brutal virus spreads across Taiwan, turning people into sadistic, violent monsters driven by unchecked rage and sexual depravity. As the outbreak worsens, a couple must fight to survive and navigate the chaos while struggling to avoid becoming victims of the infected.",
+        "year": 2021,
+        "meta": {
+            "type": "Movie",
+            "director": "Rob Jabbaz",
+            "country": "Taiwan"
         }
     },
     {
-        "title"     : "World War Z",
-        "slug"      : "world-war-z",
-        "poster"    : "world-war-z.webp",
-        "content"   : "A former United Nations investigator, Gerry Lane, is tasked with finding the source of a global zombie pandemic that is rapidly spreading across the world. As he travels through various countries to uncover a solution, Lane must navigate dangerous situations and race against time to prevent humanity's extinction.",
-        "year"      : 2013,
-        "meta"      : {
-            "type"      : "Movie"
+        "title": "World War Z",
+        "slug": "world-war-z",
+        "poster": "world-war-z.webp",
+        "content": "A former United Nations investigator, Gerry Lane, is tasked with finding the source of a global zombie pandemic that is rapidly spreading across the world. As he travels through various countries to uncover a solution, Lane must navigate dangerous situations and race against time to prevent humanity's extinction.",
+        "year": 2013,
+        "meta": {
+            "type": "Movie",
+            "director": "Marc Forster",
+            "country": "USA"
         }
     },
     {
-        "title"     : "All of us are Dead",
-        "slug"      : "all-of-us-are-dead",
-        "poster"    : "all-of-us-are-dead.jpg",
-        "content"   : "In the South Korean city of Hyosan, a science teacher enacts a horrific experiment, causing a local high school to be overrun with zombies. As the outbreak spreads to the city, and the beleaguered authorities struggle to contain it, a group of trapped students must band together and use their wits in order to survive and reach safety.",
-        "year"      : 2018,
-        "meta"      : {
-            "type"      : "Series"
+        "title": "All of us are Dead",
+        "slug": "all-of-us-are-dead",
+        "poster": "all-of-us-are-dead.jpg",
+        "content": "In the South Korean city of Hyosan, a science teacher enacts a horrific experiment, causing a local high school to be overrun with zombies. As the outbreak spreads to the city, and the beleaguered authorities struggle to contain it, a group of trapped students must band together and use their wits in order to survive and reach safety.",
+        "year": 2018,
+        "meta": {
+            "type": "Series",
+            "director": "Lee JQ, Kim Nam-Soo",
+            "country": "South Korea"
         }
     },
     {
-        "title"     : "The Night Eats the World",
-        "slug"      : "the-night-eats-the-world",
-        "poster"    : "the-night-eats-the-world.avif",
-        "content"   : "After waking up in an apartment the night after a raging party, Sam comes face to face with his new reality: an army of zombies has invaded the streets of Paris, and he is one of the lone survivors.",
-        "year"      : 2018,
-        "meta"      : {
-            "type"      : "Movie"
+        "title": "The Night Eats the World",
+        "slug": "the-night-eats-the-world",
+        "poster": "the-night-eats-the-world.avif",
+        "content": "After waking up in an apartment the night after a raging party, Sam comes face to face with his new reality: an army of zombies has invaded the streets of Paris, and he is one of the lone survivors.",
+        "year": 2018,
+        "meta": {
+            "type": "Movie",
+            "director": "Dominique Rocher",
+            "country": "France"
         }
     },
     {
-        "title"     : "Day of the Dead",
-        "slug"      : "day-of-the-dead-1985",
-        "poster"    : "day-of-the-dead-1985.png",
-        "content"   : "A group of survivors, including soldiers and scientists, are holed up in an underground bunker as society collapses due to a zombie apocalypse. Tensions rise between the group as they struggle to find a solution to the outbreak while dealing with the growing threat of both the undead and their fellow humans.",
-        "year"      : 1985,
-        "meta"      : {
-            "type"      : "Movie"
+        "title": "Day of the Dead",
+        "slug": "day-of-the-dead-1985",
+        "poster": "day-of-the-dead-1985.png",
+        "content": "A group of survivors, including soldiers and scientists, are holed up in an underground bunker as society collapses due to a zombie apocalypse. Tensions rise between the group as they struggle to find a solution to the outbreak while dealing with the growing threat of both the undead and their fellow humans.",
+        "year": 1985,
+        "meta": {
+            "type": "Movie",
+            "director": "George A. Romero",
+            "country": "USA"
         }
     },
     {
-        "title"     : "[REC]",
-        "slug"      : "rec",
-        "poster"    : "rec-2007.avif",
-        "content"   : "A television reporter and her cameraman are trapped inside an apartment building while covering a routine emergency response, only to find the residents have been infected by a deadly virus that turns them into violent, zombie-like creatures. As the situation spirals out of control, the survivors must fight to stay alive while the infection spreads rapidly within the building.",
-        "year"      : 2007,
-        "meta"      : {
-            "type"      : "Movie"
+        "title": "[REC]",
+        "slug": "rec",
+        "poster": "rec-2007.avif",
+        "content": "A television reporter and her cameraman are trapped inside an apartment building while covering a routine emergency response, only to find the residents have been infected by a deadly virus that turns them into violent, zombie-like creatures. As the situation spirals out of control, the survivors must fight to stay alive while the infection spreads rapidly within the building.",
+        "year": 2007,
+        "meta": {
+            "type": "Movie",
+            "director": "Jaume Balagueró, Paco Plaza",
+            "country": "Spain"
         }
     },
     {
-        "title"     : "Zombieland",
-        "slug"      : "zombieland",
-        "poster"    : "zombieland.jpg",
-        "content"   : "A group of quirky survivors, including a college student and a tough-talking woman, travel across a post-apocalyptic America overrun by zombies. As they form an unlikely bond, they navigate the dangers of the undead while trying to find safety and a sense of normalcy in a world gone mad.",
-        "year"      : 2009,
-        "meta"      : {
-            "type"      : "Movie"
+        "title": "Zombieland",
+        "slug": "zombieland",
+        "poster": "zombieland.jpg",
+        "content": "A group of quirky survivors, including a college student and a tough-talking woman, travel across a post-apocalyptic America overrun by zombies. As they form an unlikely bond, they navigate the dangers of the undead while trying to find safety and a sense of normalcy in a world gone mad.",
+        "year": 2009,
+        "meta": {
+            "type": "Movie",
+            "director": "Ruben Fleischer",
+            "country": "USA"
         }
     },
     {
-        "title"     : "Shaun of the Dead",
-        "slug"      : "shaun-of-the-dead",
-        "poster"    : "shaun.webp",
-        "content"   : "A group of friends attempts to survive a zombie apocalypse while seeking refuge in a local pub. Amid the chaos, they struggle to navigate their personal relationships and the absurdity of their situation with humor and heart.",
-        "year"      : 2004,
-        "meta"      : {
-            "type"      : "Movie"
+        "title": "Shaun of the Dead",
+        "slug": "shaun-of-the-dead",
+        "poster": "shaun.webp",
+        "content": "A group of friends attempts to survive a zombie apocalypse while seeking refuge in a local pub. Amid the chaos, they struggle to navigate their personal relationships and the absurdity of their situation with humor and heart.",
+        "year": 2004,
+        "meta": {
+            "type": "Movie",
+            "director": "Edgar Wright",
+            "country": "UK"
         }
     },
     {
-        "title"     : "Alive",
-        "slug"      : "alive",
-        "poster"    : "alive-2020.jpeg",
-        "content"   : "A young man is trapped in his apartment during a zombie outbreak and must find a way to survive as the world around him falls into chaos. Isolated and running low on resources, he forms an unlikely bond with a neighboring survivor while trying to escape the growing threat of the infected.",
-        "year"      : 2020,
-        "meta"      : {
-            "type"      : "Movie"
+        "title": "Alive",
+        "slug": "alive",
+        "poster": "alive-2020.jpeg",
+        "content": "A young man is trapped in his apartment during a zombie outbreak and must find a way to survive as the world around him falls into chaos. Isolated and running low on resources, he forms an unlikely bond with a neighboring survivor while trying to escape the growing threat of the infected.",
+        "year": 2020,
+        "meta": {
+            "type": "Movie",
+            "director": "Cho Il-hyung",
+            "country": "South Korea"
         }
     },
     {
-        "title"     : "Carriers",
-        "slug"      : "carriers",
-        "poster"    : "carriers.jpg",
-        "content"   : "a group of friends travel across a post-apocalyptic American Southwest, trying to avoid a deadly viral infection that has wiped out much of the population. As they struggle to survive, they face moral dilemmas and the harsh realities of a world where trust and humanity are in short supply.",
-        "year"      : 2009,
-        "meta"      : {
-            "type"      : "Movie"
+        "title": "Carriers",
+        "slug": "carriers",
+        "poster": "carriers.jpg",
+        "content": "A group of friends travel across a post-apocalyptic American Southwest, trying to avoid a deadly viral infection that has wiped out much of the population. As they struggle to survive, they face moral dilemmas and the harsh realities of a world where trust and humanity are in short supply.",
+        "year": 2009,
+        "meta": {
+            "type": "Movie",
+            "director": "Alex and David Pastor",
+            "country": "USA"
         }
     },
     {
-        "title"     : "The Walking Dead",
-        "slug"      : "walking-dead",
-        "poster"    : "walking-dead.jpg",
-        "content"   : "Based on the comic book series written by Robert Kirkman, this gritty drama portrays life in the months and years that follow a zombie apocalypse. A group of survivors travel in search of safety and security, constantly on the move in search of a secure home.",
-        "year"      : 2010,
-        "meta"      : {
-            "type"      : "Series"
+        "title": "The Walking Dead",
+        "slug": "walking-dead",
+        "poster": "walking-dead.jpg",
+        "content": "Based on the comic book series written by Robert Kirkman, this gritty drama portrays life in the months and years that follow a zombie apocalypse. A group of survivors travel in search of safety and security, constantly on the move in search of a secure home.",
+        "year": 2010,
+        "meta": {
+            "type": "Series",
+            "director": "Frank Darabont",
+            "country": "USA"
         }
     },
     {
-        "title"     : "Dawn of the Dead",
-        "slug"      : "dawn-of-the-dead",
-        "poster"    : "dawn.webp",
-        "content"   : "a group of survivors seeks refuge in a shopping mall after a zombie outbreak decimates the population. As they struggle to survive and maintain their humanity, they must contend with the growing hordes of the undead and the psychological toll of their isolation.",
-        "year"      : 1978,
-        "meta"      : {
-            "type"      : "Movie"
+        "title": "Dawn of the Dead",
+        "slug": "dawn-of-the-dead",
+        "poster": "dawn.webp",
+        "content": "A group of survivors seeks refuge in a shopping mall after a zombie outbreak decimates the population. As they struggle to survive and maintain their humanity, they must contend with the growing hordes of the undead and the psychological toll of their isolation.",
+        "year": 1978,
+        "meta": {
+            "type": "Movie",
+            "director": "George A. Romero",
+            "country": "USA"
         }
     },
     {
-        "title"     : "Apocalypse Z",
-        "slug"      : "apocalypse-z",
-        "poster"    : "apocalypse-z.jpg",
-        "content"   : "A strange disease has spread across the planet, turning people into violent creatures. Manel, who lives in isolation after the death of his wife, will have to manage to survive in this apocalyptic scenario with his cat.",
-        "year"      : 2024,
-        "meta"      : {
-            "type"      : "Movie"
+        "title": "Apocalypse Z",
+        "slug": "apocalypse-z",
+        "poster": "apocalypse-z.jpg",
+        "content": "A strange disease has spread across the planet, turning people into violent creatures. Manel, who lives in isolation after the death of his wife, will have to manage to survive in this apocalyptic scenario with his cat.",
+        "year": 2024,
+        "meta": {
+            "type": "Movie",
+            "director": "Santiago Alvarado",
+            "country": "Spain"
         }
     },
     {
-        "title"     : "28 Weeks later",
-        "slug"      : "28-weeks",
-        "poster"    : "28.jpg",
-        "content"   : "six months after the rage virus decimates the UK, the U.S. military begins a quarantine operation to restore order in London. However, the outbreak resurges when an infected person sneaks into the safe zone, threatening the lives of the survivors and reigniting the spread of the virus.",
-        "year"      : 2007,
-        "meta"      : {
-            "type"      : "Movie"
+        "title": "28 Weeks later",
+        "slug": "28-weeks",
+        "poster": "28.jpg",
+        "content": "Six months after the rage virus decimates the UK, the U.S. military begins a quarantine operation to restore order in London. However, the outbreak resurges when an infected person sneaks into the safe zone, threatening the lives of the survivors and reigniting the spread of the virus.",
+        "year": 2007,
+        "meta": {
+            "type": "Movie",
+            "director": "Juan Carlos Fresnadillo",
+            "country": "UK"
         }
     },
     {
-        "title"     : "Army of the Dead",
-        "slug"      : "army-of-the-dead",
-        "poster"    : "army-of-the-dead.jpg",
-        "content"   : "a group of mercenaries is hired to recover a large sum of money from a casino in post-apocalyptic Las Vegas, which has been overrun by zombies. As they navigate the zombie-infested city, they must contend with both the undead and human threats, while facing the looming challenge of completing their mission before the city is destroyed.",
-        "year"      : 2021,
-        "meta"      : {
-            "type"      : "Movie"
+        "title": "Army of the Dead",
+        "slug": "army-of-the-dead",
+        "poster": "army-of-the-dead.jpg",
+        "content": "A group of mercenaries is hired to recover a large sum of money from a casino in post-apocalyptic Las Vegas, which has been overrun by zombies. As they navigate the zombie-infested city, they must contend with both the undead and human threats, while facing the looming challenge of completing their mission before the city is destroyed.",
+        "year": 2021,
+        "meta": {
+            "type": "Movie",
+            "director": "Zack Snyder",
+            "country": "USA"
         }
     },
     {
-        "title"     : "Cargo",
-        "slug"      : "cargo",
-        "poster"    : "cargo.jpg",
-        "content"   : "A father, stranded in the Australian outback after a zombie outbreak, must protect his young daughter as he slowly turns into one of the infected. With limited time and resources, he embarks on a desperate journey to find safety for her before it's too late.",
-        "year"      : 2017,
-        "meta"      : {
-            "type"      : "Movie"
+        "title": "Cargo",
+        "slug": "cargo",
+        "poster": "cargo.jpg",
+        "content": "A father, stranded in the Australian outback after a zombie outbreak, must protect his young daughter as he slowly turns into one of the infected. With limited time and resources, he embarks on a desperate journey to find safety for her before it's too late.",
+        "year": 2017,
+        "meta": {
+            "type": "Movie",
+            "director": "Ben Howling, Yolanda Ramke",
+            "country": "Australia"
         }
     },
     {
-        "title"     : "Ravenous",
-        "slug"      : "ravenous",
-        "poster"    : "ravenous.jpg",
-        "content"   : "As a zombie plague ravages their rural Quebec town, a scrappy band of survivors join forces to flee the infected hordes in this quiet thriller.",
-        "year"      : 2017,
-        "meta"      : {
-            "type"      : "Movie"
+        "title": "Ravenous",
+        "slug": "ravenous",
+        "poster": "ravenous.jpg",
+        "content": "As a zombie plague ravages their rural Quebec town, a scrappy band of survivors join forces to flee the infected hordes in this quiet thriller.",
+        "year": 2017,
+        "meta": {
+            "type": "Movie",
+            "director": "Robin Aubert",
+            "country": "Canada"
         }
     },
     {
-        "title"     : "Cooties",
-        "slug"      : "cooties",
-        "poster"    : "cooties.jpg",
-        "content"   : "Elementary-school teachers (Elijah Wood, Alison Pill, Rainn Wilson) come under attack from children who have been turned into vicious monsters by contaminated chicken nuggets.",
-        "year"      : 2014,
-        "meta"      : {
-            "type"      : "Movie"
+        "title": "Cooties",
+        "slug": "cooties",
+        "poster": "cooties.jpg",
+        "content": "Elementary-school teachers (Elijah Wood, Alison Pill, Rainn Wilson) come under attack from children who have been turned into vicious monsters by contaminated chicken nuggets.",
+        "year": 2014,
+        "meta": {
+            "type": "Movie",
+            "director": "Jonathan Milott, Cary Murnion",
+            "country": "USA"
         }
     },
     {
-        "title"     : "Black Summer",
-        "slug"      : "black-summer",
-        "poster"    : "black-summer.webp",
-        "content"   : "In the dark, early days of a zombie apocalypse, complete strangers band together to find the strength they need to survive and get back to loved ones.",
-        "year"      : 2019,
-        "meta"      : {
-            "type"      : "Series"
+        "title": "Black Summer",
+        "slug": "black-summer",
+        "poster": "black-summer.webp",
+        "content": "In the dark, early days of a zombie apocalypse, complete strangers band together to find the strength they need to survive and get back to loved ones.",
+        "year": 2019,
+        "meta": {
+            "type": "Series",
+            "director": "Karl Schaefer, John Hyams",
+            "country": "USA"
         }
     },
     {
-        "title"     : "Day of the Dead - Remake",
-        "slug"      : "day-of-the-dead-2008",
-        "poster"    : "day-of-the-dead-2008.jpg",
-        "content"   : "A group of survivors, including military personnel and civilians, are trapped in a remote facility during a zombie outbreak. As the infected grow in number and strength, the survivors must fight for their lives while dealing with internal tensions and the horrific transformation of those they once trusted.",
-        "year"      : 2008,
-        "meta"      : {
-            "type"      : "Movie"
+        "title": "Day of the Dead - Remake",
+        "slug": "day-of-the-dead-2008",
+        "poster": "day-of-the-dead-2008.jpg",
+        "content": "A group of survivors, including military personnel and civilians, are trapped in a remote facility during a zombie outbreak. As the infected grow in number and strength, the survivors must fight for their lives while dealing with internal tensions and the horrific transformation of those they once trusted.",
+        "year": 2008,
+        "meta": {
+            "type": "Movie",
+            "director": "Steve Miner",
+            "country": "USA"
         }
     },
     {
-        "title"     : "I am Legend",
-        "slug"      : "i-am-legend-cover",
-        "poster"    : "i-am-legend-cover.jpeg",
-        "content"   : "A scientist named Robert Neville is one of the last survivors in a post-apocalyptic New York City, following a man-made virus that has turned most of humanity into aggressive, vampire-like mutants. As he works tirelessly to find a cure for the virus, he faces loneliness, danger, and the constant threat of the infected while hoping for a way to save humanity.",
-        "year"      : 2007,
-        "meta"      : {
-            "type"      : "Movie"
+        "title": "I am Legend",
+        "slug": "i-am-legend-cover",
+        "poster": "i-am-legend-cover.jpeg",
+        "content": "A scientist named Robert Neville is one of the last survivors in a post-apocalyptic New York City, following a man-made virus that has turned most of humanity into aggressive, vampire-like mutants. As he works tirelessly to find a cure for the virus, he faces loneliness, danger, and the constant threat of the infected while hoping for a way to save humanity.",
+        "year": 2007,
+        "meta": {
+            "type": "Movie",
+            "director": "Francis Lawrence",
+            "country": "USA"
         }
     },
     {
-        "title"     : "It Stains the Sands Red",
-        "slug"      : "it-stains-the-sands-red",
-        "poster"    : "red.jpg",
-        "content"   : "A woman named Molly is stranded in the Nevada desert during a zombie apocalypse, with only one slow-moving zombie relentlessly pursuing her. As she struggles to survive in the harsh environment, she must confront her own fears, physical limitations, and the growing threat of the undead.",
-        "year"      : 2016,
-        "meta"      : {
-            "type"      : "Movie"
+        "title": "It Stains the Sands Red",
+        "slug": "it-stains-the-sands-red",
+        "poster": "red.jpg",
+        "content": "A woman named Molly is stranded in the Nevada desert during a zombie apocalypse, with only one slow-moving zombie relentlessly pursuing her. As she struggles to survive in the harsh environment, she must confront her own fears, physical limitations, and the growing threat of the undead.",
+        "year": 2016,
+        "meta": {
+            "type": "Movie",
+            "director": "Colin Minihan",
+            "country": "Canada"
         }
     },
     {
-        "title"     : "Land of the Dead",
-        "slug"      : "land-of-the-dead",
-        "poster"    : "land-of-the-dead-3.jpg",
-        "content"   : "As the zombie apocalypse continues, the last remnants of humanity live in a walled-off city, ruled by a corrupt elite. When the zombies begin to evolve and organize, a group of survivors must navigate the increasingly dangerous world outside the city and confront both the undead and the human greed within.",
-        "year"      : 2005,
-        "meta"      : {
-            "type"      : "Movie"
+        "title": "Land of the Dead",
+        "slug": "land-of-the-dead",
+        "poster": "land-of-the-dead-3.jpg",
+        "content": "As the zombie apocalypse continues, the last remnants of humanity live in a walled-off city, ruled by a corrupt elite. When the zombies begin to evolve and organize, a group of survivors must navigate the increasingly dangerous world outside the city and confront both the undead and the human greed within.",
+        "year": 2005,
+        "meta": {
+            "type": "Movie",
+            "director": "George A. Romero",
+            "country": "USA"
         }
     },
     {
-        "title"     : "Resident Evil: Afterlife",
-        "slug"      : "resident-evil-afterlife",
-        "poster"    : "resident-evil-afterlife.jpg",
-        "content"   : "Alice continues her fight against the Umbrella Corporation, which has unleashed a global zombie apocalypse. She joins a group of survivors in a walled-off city, but they must confront both the undead and a powerful new enemy while trying to find a way to escape.",
-        "year"      : 2010,
-        "meta"      : {
-            "type"      : "Movie"
+        "title": "Resident Evil: Afterlife",
+        "slug": "resident-evil-afterlife",
+        "poster": "resident-evil-afterlife.jpg",
+        "content": "Alice continues her fight against the Umbrella Corporation, which has unleashed a global zombie apocalypse. She joins a group of survivors in a walled-off city, but they must confront both the undead and a powerful new enemy while trying to find a way to escape.",
+        "year": 2010,
+        "meta": {
+            "type": "Movie",
+            "director": "Paul W.S. Anderson",
+            "country": "Germany"
         }
     },
     {
-        "title"     : "Resident Evil: Welcome to Raccoon City",
-        "slug"      : "resident-evil-welcome-to-raccoon-city",
-        "poster"    : "residentevil-welcometoraccooncity.jpg",
-        "content"   : "A group of survivors in the beleaguered town of Raccoon City must fight for their lives as the T-virus outbreak unleashes hordes of zombies and mutated creatures. As they uncover the dark secrets of the Umbrella Corporation, they struggle to escape the city before it’s destroyed.",
-        "year"      : 2021,
-        "meta"      : {
-            "type"      : "Movie"
+        "title": "Resident Evil: Welcome to Raccoon City",
+        "slug": "resident-evil-welcome-to-raccoon-city",
+        "poster": "residentevil-welcometoraccooncity.jpg",
+        "content": "A group of survivors in the beleaguered town of Raccoon City must fight for their lives as the T-virus outbreak unleashes hordes of zombies and mutated creatures. As they uncover the dark secrets of the Umbrella Corporation, they struggle to escape the city before it’s destroyed.",
+        "year": 2021,
+        "meta": {
+            "type": "Movie",
+            "director": "Johannes Roberts",
+            "country": "USA"
         }
     },
     {
-        "title"     : "The Wailing",
-        "slug"      : "the-wailing",
-        "poster"    : "wailing.jpg",
-        "content"   : "A rural village in South Korea is struck by a series of mysterious deaths and violent outbreaks, which are linked to the appearance of a strange foreign man. A local police officer investigates, but as the situation escalates, he is drawn into a terrifying web of supernatural forces and dark secrets.",
-        "year"      : 2016,
-        "meta"      : {
-            "type"      : "Movie"
+        "title": "The Wailing",
+        "slug": "the-wailing",
+        "poster": "wailing.jpg",
+        "content": "A rural village in South Korea is struck by a series of mysterious deaths and violent outbreaks, which are linked to the appearance of a strange foreign man. A local police officer investigates, but as the situation escalates, he is drawn into a terrifying web of supernatural forces and dark secrets.",
+        "year": 2016,
+        "meta": {
+            "type": "Movie",
+            "director": "Na Hong-jin",
+            "country": "South Korea"
         }
     },
     {
-        "title"     : "Little Monsters",
-        "slug"      : "little-monsters",
-        "poster"    : "little-monsters.jpg",
-        "content"   : "A kindergarten teacher and a washed-up musician must protect a group of young children during a zombie outbreak at a petting zoo. As the chaos unfolds, they use their wit and creativity to keep the kids safe while navigating the dangers of the undead.",
-        "year"      : 2019,
-        "meta"      : {
-            "type"      : "Movie"
+        "title": "Little Monsters",
+        "slug": "little-monsters",
+        "poster": "little-monsters.jpg",
+        "content": "A kindergarten teacher and a washed-up musician must protect a group of young children during a zombie outbreak at a petting zoo. As the chaos unfolds, they use their wit and creativity to keep the kids safe while navigating the dangers of the undead.",
+        "year": 2019,
+        "meta": {
+            "type": "Movie",
+            "director": "Abe Forsythe",
+            "country": "Australia"
         }
     },
     {
-        "title"     : "Warm Bodies",
-        "slug"      : "warm-bodies",
-        "poster"    : "warm.avif",
-        "content"   : "A zombie named R begins to experience emotions and memories after he saves a human girl, Julie, from an attack. As their unlikely bond grows, R begins to change, challenging the boundaries between the living and the undead, and offering hope for a cure to the zombie apocalypse.",
-        "year"      : 2010,
-        "meta"      : {
-            "type"      : "Movie"
+        "title": "Warm Bodies",
+        "slug": "warm-bodies",
+        "poster": "warm.avif",
+        "content": "A zombie named R begins to experience emotions and memories after he saves a human girl, Julie, from an attack. As their unlikely bond grows, R begins to change, challenging the boundaries between the living and the undead, and offering hope for a cure to the zombie apocalypse.",
+        "year": 2010,
+        "meta": {
+            "type": "Movie",
+            "director": "Jonathan Levine",
+            "country": "USA"
         }
     },
     {
-        "title"     : "Valley of the Dead",
-        "slug"      : "valler-of-the-dead",
-        "poster"    : "valley.webp",
-        "content"   : "During the Spanish Civil War, a group of soldiers is sent on a mission to deliver a message but ends up encountering a valley filled with undead soldiers. As they fight to survive the relentless zombie threat, they must also confront the horrors of war and the uneasy alliances between the living and the dead.",
-        "year"      : 2022,
-        "meta"      : {
-            "type"      : "Movie"
+        "title": "Valley of the Dead",
+        "slug": "valler-of-the-dead",
+        "poster": "valley.webp",
+        "content": "During the Spanish Civil War, a group of soldiers is sent on a mission to deliver a message but ends up encountering a valley filled with undead soldiers. As they fight to survive the relentless zombie threat, they must also confront the horrors of war and the uneasy alliances between the living and the dead.",
+        "year": 2022,
+        "meta": {
+            "type": "Movie",
+            "director": "Héctor Hernández Vicens",
+            "country": "Spain"
         }
     },
     {
-        "title"     : "Zombieland Double Tap",
-        "slug"      : "zombieland-doubletap",
-        "poster"    : "zombieland-doubletap.jpg",
-        "content"   : "The group of survivors from the first film — Columbus, Tallahassee, Wichita, and Little Rock — continue their journey across post-apocalyptic America. As they face new, more advanced types of zombies, they encounter quirky new characters and must confront internal conflicts while navigating a world overrun by the undead.",
-        "year"      : 2019,
-        "meta"      : {
-            "type"      : "Movie"
+        "title": "Zombieland Double Tap",
+        "slug": "zombieland-doubletap",
+        "poster": "zombieland-doubletap.jpg",
+        "content": "The group of survivors from the first film — Columbus, Tallahassee, Wichita, and Little Rock — continue their journey across post-apocalyptic America. As they face new, more advanced types of zombies, they encounter quirky new characters and must confront internal conflicts while navigating a world overrun by the undead.",
+        "year": 2019,
+        "meta": {
+            "type": "Movie",
+            "director": "Ruben Fleischer",
+            "country": "USA"
         }
     },
     {
-        "title"     : "Outside",
-        "slug"      : "outside",
-        "poster"    : "outside.webp",
-        "content"   : "A family flees to an isolated farm to get away from a zombie outbreak, but old secrets eventually surface and become a greater threat.",
-        "year"      : 2024,
-        "meta"      : {
-            "type"      : "Movie"
+        "title": "Outside",
+        "slug": "outside",
+        "poster": "outside.webp",
+        "content": "A family flees to an isolated farm to get away from a zombie outbreak, but old secrets eventually surface and become a greater threat.",
+        "year": 2024,
+        "meta": {
+            "type": "Movie",
+            "director": "Carlo Ledesma",
+            "country": "Phlippines"
         }
     },
     {
-        "title"     : "Zom 100: Bucket List of the Dead",
-        "slug"      : "zom-100",
-        "poster"    : "zom-100.jpg",
-        "content"   : "A young man who works around the clock is nothing more than a corporate drone. All it takes is a zombie outbreak for him to finally feel alive.",
-        "year"      : 2024,
-        "meta"      : {
-            "type"      : "Movie"
+        "title": "Zom 100: Bucket List of the Dead",
+        "slug": "zom-100",
+        "poster": "zom-100.jpg",
+        "content": "A young man who works around the clock is nothing more than a corporate drone. All it takes is a zombie outbreak for him to finally feel alive.",
+        "year": 2024,
+        "meta": {
+            "type": "Movie",
+            "director": "Yûichi Fukuda",
+            "country": "Japan"
         }
     },
     {
-        "title"     : "Scouts Guide to the Zombie Apocalypse",
-        "slug"      : "scouts-guide-to-the-zombie-apocalypse",
-        "poster"    : "scoutsguide.webp",
-        "content"   : "three teenage scouts must use their outdoor skills to survive a zombie outbreak that turns their town into chaos. As they fight to protect their friends and loved ones, they combine their scouting knowledge with newfound courage and humor to combat the undead.",
-        "year"      : 2015,
-        "meta"      : {
-            "type"      : "Movie"
+        "title": "Scouts Guide to the Zombie Apocalypse",
+        "slug": "scouts-guide-to-the-zombie-apocalypse",
+        "poster": "scoutsguide.webp",
+        "content": "Three teenage scouts must use their outdoor skills to survive a zombie outbreak that turns their town into chaos. As they fight to protect their friends and loved ones, they combine their scouting knowledge with newfound courage and humor to combat the undead.",
+        "year": 2015,
+        "meta": {
+            "type": "Movie",
+            "director": "Christopher Landon",
+            "country": "USA"
         }
     },
     {
-        "title"     : "Happiness",
-        "slug"      : "happiness",
-        "poster"    : "happiness.jpg",
-        "content"   : "Residents of a high-rise building fight for survival when a deadly disease breaks out and turns the infected into blood-lusting zombies.",
-        "year"      : 2021,
-        "meta"      : {
-            "type"      : "Series"
+        "title": "Happiness",
+        "slug": "happiness",
+        "poster": "happiness.jpg",
+        "content": "Residents of a high-rise building fight for survival when a deadly disease breaks out and turns the infected into blood-lusting zombies.",
+        "year": 2021,
+        "meta": {
+            "type": "Series",
+            "director": "Ahn Gil-ho",
+            "country": "South Korea"
         }
     }
 ]

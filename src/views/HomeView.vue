@@ -13,7 +13,7 @@
         <div class="row pb-4">
           <div class="col text-white text-md-centser">
             <h1>Undying.</h1>
-            <p>Explore the fascinating world of the dead through in-depth analysis, survival strategies, and the latest trends in zombie culture.</p>
+            <p>A curated list of zombie films and series highlights the best in undead, infected, horror, humor, apocalyptic media.</p>
           </div>
         </div>
       </div>

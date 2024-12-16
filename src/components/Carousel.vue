@@ -25,6 +25,7 @@
   function setupPreview( data, prev ) {
     media.value = data;
     togglePreview( prev );
+    swapImage( data.poster );
   }
 
 </script>
@@ -49,7 +50,7 @@
 
       class="w-100 position-relative px-4 overflow-visible"
     >
-      <swiper-slide v-for="media in data" class="position-relative overflow-hidden d-flex align-items-end flex-wrap" @mouseover="swapImage( media.poster )" @click="setupPreview( media, previewing )">
+      <swiper-slide v-for="media in data" class="position-relative overflow-hidden d-flex align-items-end flex-wrap" @click="setupPreview( media, previewing )">
           <div class="image position-absolute top-50 start-50 w-100 h-100" :style="{ backgroundImage: 'url(./poster/' + media.poster + ')' }"></div>
           <div class="content p-4 position-relative w-100 text-white">
             <h5 class="title pt-4">{{ media.title }}</h5>

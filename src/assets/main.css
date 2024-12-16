@@ -321,6 +321,12 @@ a.button,
   }
 
   .poster-offset {
-    margin-bottom: -60px;
+    margin-bottom: 0px;
+    background: transparent !important;
+  }
+
+  .sauce-overlay {
+    backdrop-filter: blur(0);
+    background: transparent;
   }
 }
