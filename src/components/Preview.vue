@@ -12,7 +12,7 @@
                 <div class="col col-12 col-md-7">
                     <div class="ps-md-4">
                         <h3>{{ props.dat.title }}</h3>
-                        <p class="subtitle">{{ props.dat.year }}</p>
+                        <p class="subtitle">{{ props.dat.year }} &mdash; {{ props.dat.meta.type }}</p>
                         <p>{{ props.dat.content }}</p>
                     </div>
                 </div>
