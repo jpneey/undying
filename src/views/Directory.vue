@@ -2,7 +2,6 @@
 
   import data from '@/assets/dat.movies.json';
   import { ref, onMounted } from 'vue';
-  import Crumbs from '@/components/Crumbs.vue';
   import { RouterLink } from 'vue-router';
 
   const a2z = () => {
@@ -72,8 +71,8 @@
         </div>
         <div class="col col-12">
           <ul class="ps-5 pt-5 directory-list position-relative overflow-hidden">
-            <div class="poster floating" :style="{ backgroundImage: 'url(/src/assets/poster/' + defImage + ')' }"></div>
-            <RouterLink v-for="item in media" :to="'/z/' + item.slug + '/'" class="text-decoration-none text-white">
+            <div class="poster floating" :style="{ backgroundImage: 'url(./poster/' + defImage + ')' }"></div>
+            <RouterLink v-for="item in media" :to="'/' + item.slug" class="text-decoration-none text-white">
               <li class="mb-4 pb-4 border-bottom border-dark" @mouseover="swapImage( item.poster )" >
                 <h3 class="directory-title">{{ item.title }}</h3>
                 <p class="mb-0 d-flex align-items-center">{{ item.year }} <small class="ps-2 opacity-75">{{ item.meta.type }}</small></p>

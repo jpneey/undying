@@ -10,7 +10,7 @@
         <div class="container py-4 py-md-5 px-4">
             <div class="row py-md-5 align-items-center">
                 <div class="col col-12 col-md-5 mb-4 mb-md-0">
-                    <div class="poster" :style="{ backgroundImage: 'url(/src/assets/poster/' + props.dat.poster + ')' }"></div>
+                    <div class="poster" :style="{ backgroundImage: 'url(./poster/' + props.dat.poster + ')' }"></div>
                 </div>
                 <div class="col col-12 col-md-7">
                     <div class="ps-md-4">
@@ -18,7 +18,7 @@
                         <p class="subtitle">{{ props.dat.year }} &mdash; {{ props.dat.meta.type }}</p>
                         <p>{{ props.dat.content }}</p>
 
-                        <RouterLink :to="'/z/' + props.dat.slug + '/'" class="button d-inline-block mt-2" :title="props.dat.title">Inspect</RouterLink>
+                        <RouterLink :to="'/' + props.dat.slug" class="button d-inline-block mt-2" :title="props.dat.title">Inspect</RouterLink>
                     </div>
                 </div>
             </div>

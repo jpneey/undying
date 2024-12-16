@@ -15,7 +15,7 @@ const router = createRouter({
       component: () => import('../views/Directory.vue')
     },
     {
-      path: '/z/:slug',
+      path: '/:slug',
       name: 'Sauce',
       component: () => import('../views/Sauce.vue')
     }

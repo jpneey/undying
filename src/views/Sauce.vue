@@ -31,14 +31,14 @@
   <div class="spacing pt-0">
     <div class="page-small sauce d-block bg-black text-white position-relative">
       <div class="position-absolute top-0 start-0 w-100 h-100">
-        <div class="bg w-100 position-relative h-100" :style="{ backgroundImage: 'url(/src/assets/poster/' + sauce.poster + ')' }"></div>
+        <div class="bg w-100 position-relative h-100" :style="{ backgroundImage: 'url(./poster/' + sauce.poster + ')' }"></div>
         <div class="sauce-overlay position-absolute top-0 start-0 w-100 h-100"></div>
       </div>
       <div class="container position-relative">
         <div class="row">
           <div class="col col-12">
             <div class="text-center text-md-start">
-              <div class="bg w-100 poster-offset position-relative h-100" :style="{ backgroundImage: 'url(/src/assets/poster/' + sauce.poster + ')' }">
+              <div class="bg w-100 poster-offset position-relative h-100" :style="{ backgroundImage: 'url(./poster/' + sauce.poster + ')' }">
                 <div class="content position-absolute bottom-0 start-0 w-100">
                   <div class="container">
                     <div class="row">
