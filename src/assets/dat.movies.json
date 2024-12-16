@@ -55,7 +55,25 @@
         }
     },
     {
-        "title"     : "Day of the dead",
+        "title"     : "All of us are Dead",
+        "poster"    : "all-of-us-are-dead.jpg",
+        "content"   : "In the South Korean city of Hyosan, a science teacher enacts a horrific experiment, causing a local high school to be overrun with zombies. As the outbreak spreads to the city, and the beleaguered authorities struggle to contain it, a group of trapped students must band together and use their wits in order to survive and reach safety.",
+        "year"      : 2018,
+        "meta"      : {
+            "type"      : "Series"
+        }
+    },
+    {
+        "title"     : "The Night Eats the World",
+        "poster"    : "the-night-eats-the-world.avif",
+        "content"   : "After waking up in an apartment the night after a raging party, Sam comes face to face with his new reality: an army of zombies has invaded the streets of Paris, and he is one of the lone survivors.",
+        "year"      : 2018,
+        "meta"      : {
+            "type"      : "Movie"
+        }
+    },
+    {
+        "title"     : "Day of the Dead",
         "poster"    : "day-of-the-dead-1985.png",
         "content"   : "A group of survivors, including soldiers and scientists, are holed up in an underground bunker as society collapses due to a zombie apocalypse. Tensions rise between the group as they struggle to find a solution to the outbreak while dealing with the growing threat of both the undead and their fellow humans.",
         "year"      : 1985,
