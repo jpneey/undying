@@ -330,3 +330,8 @@ a.button,
     background: transparent;
   }
 }
+
+.sauce-gallery-item img {
+  max-height: 220px;
+  width: auto;
+}

@@ -1,5 +1,7 @@
 <script setup>
-  
+
+  import { Swiper, SwiperSlide } from 'swiper/vue';
+  import 'swiper/css';
   import data from '@/assets/dat.movies.json';
   import { ref, onMounted, onUpdated } from 'vue';
   import { useRoute } from 'vue-router';
@@ -7,18 +9,39 @@
   const sauce   = ref( data[0] );
   const route   = useRoute();
 
+  const content = ref( false );
+
   const prepareProject = () => {
     sauce.value = data.find( item => {
       return item.slug == route.params.slug;
     })
   }
+
+  async function prepareContent() {
+    
+    const fileName = `./content/content.${route.params.slug}.json`; // Dynamically set your file name here
+    
+    try {
+      const response = await fetch(`/${fileName}`);
+      if (!response.ok) {
+        throw new Error(`File not found: ${fileName}`);
+      }
+      const jsonData = await response.json();
+      content.value = jsonData;
+    } catch (error) {
+      content.value = null;
+    }
+
+  }
   
   onMounted(()=> {
     prepareProject();
+    prepareContent();
   })
 
   onUpdated(() => {
     prepareProject();
+    prepareContent();
   });
 
 </script>
@@ -40,7 +63,7 @@
                     <div class="row">
                       <div class="col col-12 col-md-6 offset-md-4 pt-5">
                         <p class="mb-0 subtitle">{{ sauce.year }} &mdash; {{ sauce.meta.type }}</p>
-                        <h2 class="mb-0">{{ sauce.title }}</h2>
+                        <h2 class="mb-0 mb-md-4">{{ sauce.title }}</h2>
                       </div>
                     </div>
                   </div>
@@ -64,6 +87,22 @@
       </div>
       <div class="col col-12 col-md-6 order-md-2 mt-md-0">
         {{ sauce.content }}
+
+        <template v-if="content">
+          <div v-if="content.gallery" class="mt-4">
+            <p class="subtitle">Gallery</p>
+            <hr class="opacity-75">
+            <swiper
+              :slidesPerView="'auto'"
+              :spaceBetween="25"
+              class="w-100 position-relative overflow-hidden"
+            >
+              <swiper-slide v-for="image in content.gallery" class="w-auto position-relative sauce-gallery-item">
+                <img :src=" './gallery/' + image " alt="gallery-image">
+              </swiper-slide>
+            </swiper>
+          </div>
+        </template>
       </div>
     </div>
   </div>
