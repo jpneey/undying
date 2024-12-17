@@ -1,0 +1,9 @@
+{
+    "metas" : {
+        "alias"         : "Zombies",
+        "source"        : "Trixie Virus",
+        "cure"          : "No cure",
+        "intelligence"  : "Normal",
+        "speed"         : 2
+    }
+}

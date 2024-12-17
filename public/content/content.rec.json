@@ -3,5 +3,11 @@
         "rec-1.jpg",
         "rec-2.jpg",
         "rec-3.avif"
-    ]
+    ],
+    "metas" : {
+        "alias"     : "Infected / Possessed",
+        "source"    : "Demonic virus",
+        "cure"      : "No cure",
+        "speed"     : 3
+    }
 }

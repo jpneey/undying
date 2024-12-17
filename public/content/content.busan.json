@@ -1,0 +1,9 @@
+{
+    "metas" : {
+        "alias"         : "Infected",
+        "source"        : "Locust Virus",
+        "cure"          : "No cure",
+        "intelligence"  : "Normal - Aggressive",
+        "speed"         : 3
+    }
+}

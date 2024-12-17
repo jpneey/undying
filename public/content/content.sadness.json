@@ -1,0 +1,14 @@
+{
+    "gallery" : [
+        "sadness-1.jpg",
+        "sadness-3.jpg",
+        "sadness-2.jpg"
+    ],
+    "metas" : {
+        "alias"         : "Infected",
+        "source"        : "Alvin Virus",
+        "cure"          : "No cure",
+        "intelligence"  : "Human",
+        "speed"         : 2
+    }
+}

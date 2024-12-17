@@ -1,0 +1,9 @@
+{
+    "metas" : {
+        "alias"         : "Infected",
+        "source"        : "Rage Virus",
+        "cure"          : "No cure",
+        "intelligence"  : "Normal",
+        "speed"         : 3
+    }
+}

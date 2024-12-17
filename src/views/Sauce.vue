@@ -5,11 +5,13 @@
   import data from '@/assets/dat.movies.json';
   import { ref, onMounted, onUpdated } from 'vue';
   import { useRoute } from 'vue-router';
+  import Difficulty from '@/components/Difficulty.vue';
   
   const sauce   = ref( data[0] );
   const route   = useRoute();
 
   const content = ref( false );
+  const metas   = ref( false );
 
   const prepareProject = () => {
     sauce.value = data.find( item => {
@@ -26,10 +28,11 @@
       if (!response.ok) {
         throw new Error(`File not found: ${fileName}`);
       }
-      const jsonData = await response.json();
-      content.value = jsonData;
+      const jsonData  = await response.json();
+      content.value   = jsonData;
+      metas.value     = jsonData.metas;
     } catch (error) {
-      content.value = null;
+      content.value   = null;
     }
 
   }
@@ -91,7 +94,6 @@
         <template v-if="content">
           <div v-if="content.gallery" class="mt-4">
             <p class="subtitle">Gallery</p>
-            <hr class="opacity-75">
             <swiper
               :slidesPerView="'auto'"
               :spaceBetween="25"
@@ -103,6 +105,12 @@
             </swiper>
           </div>
         </template>
+
+        <Difficulty
+          :metas="metas"
+          class="mt-4"
+          >
+        </Difficulty>
       </div>
     </div>
   </div>
