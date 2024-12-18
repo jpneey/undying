@@ -172,7 +172,7 @@ h2 {
 }
 
 .preview {
-  transition: all .3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  transition: all .5s ease;
   z-index: 100;
   box-shadow: 0 0 100px 999990px #000000ec;
   width: 100%;
@@ -180,6 +180,7 @@ h2 {
   opacity: 0;
   pointer-events: none;
   backdrop-filter: blur(45px);
+  transform: translateY(10px);
 }
 
 .preview-overlay {
@@ -192,6 +193,7 @@ h2 {
 .on .preview {
   opacity: 1;
   pointer-events: all;
+  transform: translateY(0px);
 }
 
 
@@ -334,4 +336,58 @@ a.button,
 .sauce-gallery-item img {
   max-height: 220px;
   width: auto;
+}
+
+.textContainer {
+  position: relative;
+  perspective: 6em;
+}  
+.textContainer span {
+  position: absolute;
+  width: 1em;
+  font-size: 24px;
+  white-space: nowrap;
+  text-indent: calc(var(--i) * -1em);
+  overflow: hidden;
+  transform:
+    translate(-50%, -50%)
+    rotate(calc(15deg * var(--i)))
+    translateY(calc(-1em / sin(15deg)))
+    rotateX(-90deg);
+  /* temporarily */
+  /* outline: 2px solid red;    */
+}
+
+.footer {
+  height: 500px;
+}
+
+.circle-wrap {
+  transform: translate(-50%, -50%) scale( calc( var(--i) * 1 ) ) rotate(0deg);
+  animation: rotating calc( var(--i) * 30s ) linear infinite;
+  opacity: calc( 1 - calc( var(--i) * 0.08 ) );
+}
+
+
+@keyframes rotating {
+  from {
+    transform: translate(-50%, -50%) scale( calc( var(--i) * 1 ) ) rotate(0deg);
+  }
+  to {
+    transform: translate(-50%, -50%) scale( calc( var(--i) * 1 ) ) rotate(360deg);
+  }
+}
+
+.page-wrap {
+  animation: scale-in-center 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+  animation-delay: 1s;
+}
+
+@keyframes scale-in-center {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }

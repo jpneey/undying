@@ -1,7 +1,8 @@
 <script setup>
 
 import { RouterLink, RouterView } from 'vue-router'
-import { ref } from 'vue';
+import { ref, onMounted } from 'vue';
+import Footer from './components/Footer.vue';
 
 const menu_active = ref( false );
 
@@ -22,6 +23,7 @@ const menu_active = ref( false );
     </nav>
   </header>
   <RouterView />
+  <Footer></Footer>
 </template>
 
 

@@ -50,6 +50,7 @@
 </script>
 
 <template>
+<div class="page-wrap">
   <div class="spacing pt-0 position-relative overflow-hidden">
     <div class="page-small sauce d-block bg-black text-white position-relative">
       <div class="position-absolute top-0 start-0 w-100 h-100">
@@ -114,9 +115,5 @@
       </div>
     </div>
   </div>
-
-  <div class="position-relative overflow-hidden">
-    <!-- <Carousel :dat="prepareRelated()"></Carousel> -->
-  </div>
-  
+</div>
 </template>

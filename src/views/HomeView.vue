@@ -7,7 +7,7 @@
 </script>
 
 <template>
-  <main class="w-100 position-relative overflow-hidden d-flex align-items-end justify-content-center flex-wrap">
+  <main class="page-wrap w-100 position-relative overflow-hidden d-flex align-items-end justify-content-center flex-wrap">
     <div class="d-block w-100 page">
       <div class="container position-relative" style="z-index: 2;">
         <div class="row pb-4">
@@ -18,7 +18,7 @@
         </div>
       </div>
       <Carousel :dat="data"></Carousel>
+      <Latest></Latest>
     </div>
   </main>
-  <Latest></Latest>
 </template>

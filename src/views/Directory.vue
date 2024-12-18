@@ -60,7 +60,7 @@
 </script>
 
 <template>
-  <div class="page directory d-block bg-black text-white h-100">
+  <div class="page-wrap page directory d-block bg-black text-white h-100">
     <div class="container position-relative">
       <div class="row">
         <div class="col col-12">

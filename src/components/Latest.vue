@@ -5,7 +5,7 @@
 </script>
 
 <template >
-  <div v-for="( item, index ) in data" :key="index" class="latest bg-black border-top border-dark text-light position-relative overflow-hidden">
+  <div v-for="( item, index ) in data" :key="index" class="latest bg-black border-top border-dark text-light position-relative overflow-hidden" style="z-index: 0;">
     <div class="spacing container position-relative">
       <div class="row align-items-center">
         <div class="col col-12 col-md-5 my-4" :class="index % 2 != 0 ? 'order-md-2 offset-md-1 ' : ''">
