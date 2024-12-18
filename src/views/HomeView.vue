@@ -13,7 +13,7 @@
         <div class="row pb-4">
           <div class="col text-white text-md-centser">
             <h1>Undying.</h1>
-            <p>A curated list of zombie films and series highlights the best in undead, infected, horror, humor, apocalyptic media.</p>
+            <p>A curated list of the best zombie, infected, and apocalyptic movies and series for your next thrilling binge-watch.</p>
           </div>
         </div>
       </div>
