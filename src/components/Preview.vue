@@ -6,11 +6,11 @@
 </script>
 
 <template>
-    <div class="preview position-fixed bottom-0 start-0 w-100 text-white">
+    <div class="preview position-fixed bottom-0 start-0 w-100 text-white maybe-rounded">
         <div class="container py-4 py-md-5 px-4">
             <div class="row py-md-5 align-items-center">
                 <div class="col col-12 col-md-5 mb-4 mb-md-0">
-                    <div class="poster" :style="{ backgroundImage: 'url(./poster/' + props.dat.poster + ')' }"></div>
+                    <div class="poster maybe-rounded" :style="{ backgroundImage: 'url(./poster/' + props.dat.poster + ')' }"></div>
                 </div>
                 <div class="col col-12 col-md-7">
                     <div class="ps-md-4">

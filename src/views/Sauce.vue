@@ -61,7 +61,7 @@
         <div class="row">
           <div class="col col-12">
             <div class="text-center text-md-start">
-              <div class="bg w-100 poster-offset position-relative h-100" :style="{ backgroundImage: 'url(./poster/' + sauce.poster + ')' }">
+              <div class="bg w-100 poster-offset position-relative h-100 maybe-rounded" :style="{ backgroundImage: 'url(./poster/' + sauce.poster + ')' }">
                 <div class="content position-absolute bottom-0 start-0 w-100">
                   <div class="container">
                     <div class="row">
@@ -98,9 +98,9 @@
             <swiper
               :slidesPerView="'auto'"
               :spaceBetween="25"
-              class="w-100 position-relative overflow-hidden"
+              class="w-100 position-relative overflow-hidden maybe-rounded"
             >
-              <swiper-slide v-for="image in content.gallery" class="w-auto position-relative sauce-gallery-item">
+              <swiper-slide v-for="image in content.gallery" class="w-auto maybe-rounded overflow-hidden position-relative sauce-gallery-item">
                 <img :src=" './gallery/' + image " alt="gallery-image">
               </swiper-slide>
             </swiper>

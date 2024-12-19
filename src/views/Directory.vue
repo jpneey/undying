@@ -4,6 +4,8 @@
   import { ref, onMounted } from 'vue';
   import { RouterLink } from 'vue-router';
 
+  import Eyes from '@/components/Eyes.vue';
+
   const a2z = () => {
     return data.sort( function( a, b) {
       return a.title < b.title ? -1 : 1;
@@ -60,27 +62,30 @@
 </script>
 
 <template>
-  <div class="page-wrap page directory d-block bg-black text-white h-100">
-    <div class="container position-relative">
-      <div class="row">
-        <div class="col col-12">
-          <div class="text-center text-md-start">
-            <!-- <Crumbs :links="crumbs"></Crumbs> -->
-            <h1>Almanac</h1>
+  <div class="page-wrap">
+    <div class="page directory d-block bg-black text-white h-100">
+      <div class="container position-relative">
+        <div class="row">
+          <div class="col col-12">
+            <div class="text-center text-md-start">
+              <!-- <Crumbs :links="crumbs"></Crumbs> -->
+              <h1>Almanac</h1>
+            </div>
           </div>
-        </div>
-        <div class="col col-12">
-          <ul class="ps-5 pt-5 directory-list position-relative overflow-hidden">
-            <div class="poster floating" :style="{ backgroundImage: 'url(./poster/' + defImage + ')' }"></div>
-            <RouterLink v-for="item in media" :to="'/' + item.slug" class="text-decoration-none text-white">
-              <li class="mb-4 pb-4 border-bottom border-dark" @mouseover="swapImage( item.poster )" >
-                <h3 class="directory-title">{{ item.title }}</h3>
-                <p class="mb-0 d-flex align-items-center">{{ item.year }} <small class="ps-2 opacity-75">{{ item.meta.type }}</small></p>
-              </li>
-            </RouterLink>
-          </ul>
+          <div class="col col-12">
+            <ul class="ps-5 pt-5 directory-list position-relative overflow-hidden">
+              <div class="poster floating" :style="{ backgroundImage: 'url(./poster/' + defImage + ')' }"></div>
+              <RouterLink v-for="item in media" :to="'/' + item.slug" class="text-decoration-none text-white">
+                <li class="mb-4 pb-4 border-bottom border-dark" @mouseover="swapImage( item.poster )" >
+                  <h3 class="directory-title">{{ item.title }}</h3>
+                  <p class="mb-0 d-flex align-items-center">{{ item.year }} <small class="ps-2 opacity-75">{{ item.meta.type }}</small></p>
+                </li>
+              </RouterLink>
+            </ul>
+          </div>
         </div>
       </div>
     </div>
+    <Eyes></Eyes>
   </div>
 </template>

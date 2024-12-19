@@ -381,13 +381,25 @@ a.button,
 .page-wrap {
   animation: scale-in-center 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
   animation-delay: 1s;
+  opacity: 0;
+  padding-top: 10px;
 }
 
 @keyframes scale-in-center {
   0% {
+    padding-top: 10px;
     opacity: 0;
   }
   100% {
+    padding-top: 0px;
     opacity: 1;
   }
+}
+
+.footer-wrap {
+  position: relative;
+}
+
+.maybe-rounded {
+  border-radius: 8px;
 }
