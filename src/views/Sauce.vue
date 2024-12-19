@@ -6,17 +6,32 @@
   import { ref, onMounted, onUpdated } from 'vue';
   import { useRoute } from 'vue-router';
   import Difficulty from '@/components/Difficulty.vue';
-  
+  import { addMovie, removeMovie, isInMovie } from '@/assets/watchlist';
+  import Eyes from '@/components/Eyes.vue';
+
+
   const sauce   = ref( data[0] );
   const route   = useRoute();
 
   const content = ref( false );
   const metas   = ref( false );
 
+  const renderkey = ref(0);
+
   const prepareProject = () => {
     sauce.value = data.find( item => {
       return item.slug == route.params.slug;
     })
+  }
+
+  function addThisMovie( slug ) {
+    addMovie( slug );
+    renderkey.value++;
+  }
+
+  function removeThisMovie( slug ) {
+    removeMovie( slug );
+    renderkey.value++;
   }
 
   async function prepareContent() {
@@ -115,5 +130,49 @@
       </div>
     </div>
   </div>
+  <div class="position-relative overflow-hidden border-top border-dark py-4">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-12 col-md-7">
+
+          <div class="row row-cols-3">
+            <div class="col col-12 col-md-4">
+              <div class="bg-dark mb-4 mb-md-0 box maybe-rounded position-relative overflow-hidden">
+                <div class="position-absolute top-50 w-100 h-100 start-50 translate-middle">
+                  <Eyes :count="5" :text="'Watchlist .'"></Eyes>
+                  
+                  <div class="position-absolute bottom-0 start-50 translate-middle-x mb-4 text-center" :key="renderkey">
+                    <template v-if="isInMovie( sauce.slug )">
+                      <RouterLink to="/list/" class="button">View List</RouterLink>
+                    </template>
+                    <template v-else>
+                      <span class="add" @click="addThisMovie(sauce.slug)">
+                        <i class="before"></i>
+                        <i class="after"></i>
+                      </span>
+                    </template>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+            
+            <div class="col col-12 col-md-4">
+              <div class="bg-dark mb-4 mb-md-0 box maybe-rounded"></div>
+            </div>
+            
+            <div class="col col-12 col-md-4">
+              <div class="bg-dark box maybe-rounded"></div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
 </div>
+
+
+
+
 </template>

@@ -19,6 +19,7 @@ const menu_active = ref( false );
       <div class="d-block text-center w-100" @click="menu_active = !menu_active">
         <RouterLink to="/">Home</RouterLink>
         <RouterLink to="/directory">Directory</RouterLink>
+        <RouterLink to="/list">My List</RouterLink>
       </div>
     </nav>
   </header>
