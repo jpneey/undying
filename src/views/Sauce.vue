@@ -7,8 +7,7 @@
   import { useRoute } from 'vue-router';
   import Difficulty from '@/components/Difficulty.vue';
   import { addMovie, removeMovie, isInMovie } from '@/assets/watchlist';
-  import Eyes from '@/components/Eyes.vue';
-
+import Eyes from '@/components/Eyes.vue';
 
   const sauce   = ref( data[0] );
   const route   = useRoute();
@@ -80,7 +79,7 @@
                 <div class="content position-absolute bottom-0 start-0 w-100">
                   <div class="container">
                     <div class="row">
-                      <div class="col col-12 col-md-6 offset-md-4 pt-5">
+                      <div class="col col-12 col-md-6 offset-md-3 pt-5">
                         <p class="mb-0 subtitle">{{ sauce.year }} &mdash; {{ sauce.meta.type }}</p>
                         <h2 class="mb-0 mb-md-4">{{ sauce.title }}</h2>
                       </div>
@@ -96,7 +95,7 @@
   </div>
   <div class="spacing pt-0 container">
     <div class="row">
-      <div class="col col-12 col-md-4 order-2 text-md-end mt-4 mt-md-0">
+      <div class="col col-12 col-md-3 text-md-end mt-4 mt-md-0 order-2 order-md-1">
         <div class="pe-md-4">
           <p class="subtitle mb-3"><small class="d-block opacity-75">Type</small>{{ sauce.meta.type }}</p>
           <p class="subtitle mb-3"><small class="d-block opacity-75">Released</small>{{ sauce.year }}</p>
@@ -104,9 +103,8 @@
           <p class="subtitle mb-0"><small class="d-block opacity-75">Country</small>{{ sauce.meta.country }}</p>
         </div>
       </div>
-      <div class="col col-12 col-md-6 order-md-2 mt-md-0">
+      <div class="col col-12 col-md-6 mt-4 mt-md-0 order-md-2">
         {{ sauce.content }}
-
         <template v-if="content">
           <div v-if="content.gallery" class="mt-4">
             <p class="subtitle">Gallery</p>
@@ -121,12 +119,42 @@
             </swiper>
           </div>
         </template>
-
-        <Difficulty
-          :metas="metas"
-          class="mt-4"
-          >
-        </Difficulty>
+        <div class="mt-4" :key="renderkey">
+              <div class="maybe-rounded border border-dark p-4 position-relative overflow-hidden">
+                <div class="row align-items-center position-relative">
+                  <div class="col col-12 col-md-4">
+                    <div class="box position-relative overflow-hidden maybe-rounded border border-dark">
+                      <div class="position-absolute top-50 start-50 translate-middle w-100 h-100 opacity-50">
+                        <Eyes :text="'View Trailer.'" :count="6"></Eyes>
+                      </div>
+                      <div class="play position-absolute top-50 start-50 translate-middle"></div>
+                    </div>
+                  </div>
+                  <div class="col col-12 col-md-8 mt-4 mt-md-0">
+                    <div class="ps-md-4">
+                      <h5>Watchlist</h5>
+                      <template v-if="isInMovie( sauce.slug )">
+                        <p class="mb-3"><span>{{ sauce.title }}</span> is added to your watchlist.</p>
+                        <RouterLink to="/list/" class="button me-2">View List</RouterLink>
+                        <span class="button" @click="removeThisMovie(sauce.slug)">Remove</span>
+                      </template>
+                      <template v-else>
+                        <p class="mb-3">Interested in {{ sauce.title }}? Add it to your list.</p>
+                        <span class="button" @click="addThisMovie(sauce.slug)">Add to watch list</span>
+                      </template>
+                    </div>
+                  </div>
+                </div>
+              </div>
+          </div>
+      </div>
+      <div class="col col-12 col-md-3 mt-4 mt-md-0 order-2 order-md-3">
+        <div class="ps-md-4">
+          <Difficulty
+            :metas="metas"
+            >
+          </Difficulty>
+        </div>
       </div>
     </div>
   </div>
@@ -139,20 +167,6 @@
             <div class="col col-12 col-md-4">
               <div class="bg-dark mb-4 mb-md-0 box maybe-rounded position-relative overflow-hidden">
                 <div class="position-absolute top-50 w-100 h-100 start-50 translate-middle">
-                  <Eyes :count="5" :text="'Watchlist .'"></Eyes>
-                  
-                  <div class="position-absolute bottom-0 start-50 translate-middle-x mb-4 text-center" :key="renderkey">
-                    <template v-if="isInMovie( sauce.slug )">
-                      <RouterLink to="/list/" class="button">View List</RouterLink>
-                    </template>
-                    <template v-else>
-                      <span class="add" @click="addThisMovie(sauce.slug)">
-                        <i class="before"></i>
-                        <i class="after"></i>
-                      </span>
-                    </template>
-                  </div>
-
                 </div>
               </div>
             </div>
@@ -171,8 +185,5 @@
     </div>
   </div>
 </div>
-
-
-
 
 </template>

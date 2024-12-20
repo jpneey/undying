@@ -47,10 +47,12 @@
 <template>
     <div class="difficulty">
         <div class="row" v-for="meta in metas">
-            <div class="col-12 pb-1">
-                <div class="border-dark py-2">
-                    <p class="subtitle mb-0">{{ meta.name }}</p>
-                    <p class="meta mb-0">{{ prepareMeta( meta.prop, props.metas[meta.prop] ) || "&mdash;" }}</p>
+            <div class="col-12 pb-3">
+                <div class="border-dark">
+                    <p class="subtitle mb-0">
+                        <small class="d-block opacity-75">{{ meta.name }}</small>
+                        {{ prepareMeta( meta.prop, props.metas[meta.prop] ) || "&mdash;" }}
+                    </p>
                 </div>
             </div>
         </div>
