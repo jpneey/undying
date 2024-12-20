@@ -7,7 +7,7 @@
   import { useRoute } from 'vue-router';
   import Difficulty from '@/components/Difficulty.vue';
   import { addMovie, removeMovie, isInMovie } from '@/assets/watchlist';
-import Eyes from '@/components/Eyes.vue';
+  import Eyes from '@/components/Eyes.vue';
 
   const sauce   = ref( data[0] );
   const route   = useRoute();
@@ -135,7 +135,7 @@ import Eyes from '@/components/Eyes.vue';
                       <h5>Watchlist</h5>
                       <template v-if="isInMovie( sauce.slug )">
                         <p class="mb-3"><span>{{ sauce.title }}</span> is added to your watchlist.</p>
-                        <RouterLink to="/list/" class="button me-2">View List</RouterLink>
+                        <RouterLink to="/list" class="button me-2">View List</RouterLink>
                         <span class="button" @click="removeThisMovie(sauce.slug)">Remove</span>
                       </template>
                       <template v-else>
@@ -154,32 +154,6 @@ import Eyes from '@/components/Eyes.vue';
             :metas="metas"
             >
           </Difficulty>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="position-relative overflow-hidden border-top border-dark py-4">
-    <div class="container">
-      <div class="row justify-content-center">
-        <div class="col-12 col-md-7">
-
-          <div class="row row-cols-3">
-            <div class="col col-12 col-md-4">
-              <div class="bg-dark mb-4 mb-md-0 box maybe-rounded position-relative overflow-hidden">
-                <div class="position-absolute top-50 w-100 h-100 start-50 translate-middle">
-                </div>
-              </div>
-            </div>
-            
-            <div class="col col-12 col-md-4">
-              <div class="bg-dark mb-4 mb-md-0 box maybe-rounded"></div>
-            </div>
-            
-            <div class="col col-12 col-md-4">
-              <div class="bg-dark box maybe-rounded"></div>
-            </div>
-          </div>
-
         </div>
       </div>
     </div>
