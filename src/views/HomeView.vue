@@ -2,6 +2,7 @@
 
   import data from '@/assets/dat.movies.json';
   import Carousel from '@/components/Carousel.vue';
+import Collections from '@/components/Collections.vue';
   import Latest from '@/components/Latest.vue';
   
 </script>
@@ -19,6 +20,7 @@
       </div>
       <Carousel :dat="data"></Carousel>
       <Latest></Latest>
+      <Collections></Collections>
     </div>
   </main>
 </template>

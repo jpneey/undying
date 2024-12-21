@@ -8,6 +8,7 @@
   import Difficulty from '@/components/Difficulty.vue';
   import { addMovie, removeMovie, isInMovie } from '@/assets/watchlist';
   import Eyes from '@/components/Eyes.vue';
+  import Collections from '@/components/Collections.vue';
 
   const sauce   = ref( data[0] );
   const route   = useRoute();
@@ -158,6 +159,7 @@
       </div>
     </div>
   </div>
+  <Collections></Collections>
 </div>
 
 </template>
