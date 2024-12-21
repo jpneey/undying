@@ -8,7 +8,7 @@
 
   const a2z = () => {
     return data.sort( function( a, b) {
-      return a.title < b.title ? -1 : 1;
+      return a.year > b.year ? -1 : 1;
     })
   }
 
@@ -86,6 +86,5 @@
         </div>
       </div>
     </div>
-    <Eyes></Eyes>
   </div>
 </template>
