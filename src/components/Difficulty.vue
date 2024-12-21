@@ -6,8 +6,8 @@
         { "name" : "Alias", "prop" : "alias" },   
         { "name" : "Source", "prop" : "source" },   
         { "name" : "Cure", "prop" : "cure" },   
-        { "name" : "Intelligence", "prop" : "intelligence" },   
-        { "name" : "Speed", "prop" : "speed" },   
+        // { "name" : "Intelligence", "prop" : "intelligence" },   
+        // { "name" : "Speed", "prop" : "speed" },   
     ]
 
     const prepareMeta = ( key, value ) => {
