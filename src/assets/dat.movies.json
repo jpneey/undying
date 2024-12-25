@@ -421,6 +421,18 @@
         }
     },
     {
+        "title": "Reality Z",
+        "slug": "reality-z",
+        "poster": "reality-z.jpg",
+        "content": "With Rio de Janeiro under a zombie attack, reality show contestants shelter in a TV studio, where they must deal with more than flesh-eating hordes.",
+        "year": 2020,
+        "meta": {
+            "type": "Series",
+            "director": "Cláudio Torres",
+            "country": "Brazil"
+        }
+    },
+    {
         "title": "Outside",
         "slug": "outside",
         "poster": "outside.webp",
