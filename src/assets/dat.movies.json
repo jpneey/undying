@@ -467,5 +467,17 @@
             "director": "Ahn Gil-ho",
             "country": "South Korea"
         }
+    },
+    {
+        "title": "Day of the Dead: Bloodline",
+        "slug": "day-of-the-dead-bloodline",
+        "poster": "day-of-the-dead-2017.jpg",
+        "content": "A small group of military personnel and some survivalists dwell in an underground bunker as they seek to find a cure in a world overrun by zombies.",
+        "year": 2017,
+        "meta": {
+            "type": "Movie",
+            "director": "Hèctor Hernández Vicens",
+            "country": "USA"
+        }
     }
 ]
